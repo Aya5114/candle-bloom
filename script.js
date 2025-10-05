@@ -3,20 +3,20 @@ const items = [
     {
         id: 1,
         name: "Item 1 (e.g., T-Shirt)",
-        price: 19.99,
-        image: "https://via.placeholder.com/250x200?text=Item+1" // Replace with your image URL or local path
+        price: 100,
+        image: "images/candle1.jpg" // Replace with your image URL or local path
     },
     {
         id: 2,
         name: "Item 2 (e.g., Mug)",
-        price: 12.50,
-        image: "https://via.placeholder.com/250x200?text=Item+2"
+        price: 100,
+        image: "images/candle2.jpg" // Replace with your image URL or local path
     },
     {
         id: 3,
         name: "Item 3 (e.g., Book)",
-        price: 25.00,
-        image: "https://via.placeholder.com/250x200?text=Item+3"
+        price: 200,
+        image: "images/candle3.jpg" // Replace with your image URL or local path
     }
     // Add more: { id: 4, name: "Your Item", price: 15.99, image: "path/to/image.jpg" }
 ];
@@ -191,7 +191,7 @@ checkoutBtn.onclick = () => {
         alert('Cart is empty!');
         return;
     }
-    alert('Thanks! Contact us via email or phone to arrange cash payment and pickup/delivery.');
+    alert('Thanks! Contact us via DM or phone to arrange cash payment and pickup/delivery.');
     cart = []; // Optional: Clear cart after "checkout"
     saveCart();
     renderCart();
