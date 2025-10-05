@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Shop - Cash Payment Only</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"> <!-- For heart icons -->
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>My Shop</h1>
+            <p>Cash payment only. Contact us for pickup or delivery arrangements.</p>
+            <nav>
+                <button id="cartBtn" class="btn"><i class="fas fa-shopping-cart"></i> Cart (<span id="cartCount">0</span>)</button>
+                <button id="favoritesBtn" class="btn"><i class="fas fa-heart"></i> Favorites (<span id="favoritesCount">0</span>)</button>
+            </nav>
+        </header>
+
+        <main>
+            <section class="products" id="products">
+                <!-- Items will be dynamically added here by JavaScript -->
+            </section>
+        </main>
+
+        <!-- Cart Modal -->
+        <div id="cartModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Shopping Cart</h2>
+                <div id="cartItems"></div>
+                <div class="cart-total">
+                    <p>Total: $<span id="cartTotal">0.00</span></p>
+                </div>
+                <button id="checkoutBtn" class="btn checkout">Checkout (Cash Payment)</button>
+                <p class="payment-note">Contact: <a href="mailto:your-email@example.com">your-email@example.com</a> or call [your phone] to arrange cash payment.</p>
+            </div>
+        </div>
+
+        <!-- Favorites Modal -->
+        <div id="favoritesModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Favorites</h2>
+                <div id="favoritesItems"></div>
+                <p><small>Add items to cart from here or remove from favorites.</small></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
