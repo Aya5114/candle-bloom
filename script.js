@@ -17,7 +17,20 @@ const items = [
         name: "Rose Candle",
         price: 200,
         image: "images/candle3.jpg" // Replace with your image URL or local path
+    },
+    {
+        id: 4,
+        name: "White hoodie",
+        price: 350,
+        image: "images/White hoodie.jpg" // Replace with your image URL or local path
+    },
+    {
+        id: 5,
+        name: "Gray hoodie",
+        price: 400,
+        image: "images/Gray hoodie.jpg" // Replace with your image URL or local path
     }
+
     // Add more: { id: 4, name: "Your Item", price: 15.99, image: "path/to/image.jpg" }
 ];
 
