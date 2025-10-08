@@ -2,19 +2,19 @@
 const items = [
     {
         id: 1,
-        name: "Item 1 (e.g., T-Shirt)",
+        name: "OUD CANDLE",
         price: 100,
         image: "images/candle1.jpg" // Replace with your image URL or local path
     },
     {
         id: 2,
-        name: "Item 2 (e.g., Mug)",
+        name: "Vanilla Candle",
         price: 100,
         image: "images/candle2.jpg" // Replace with your image URL or local path
     },
     {
         id: 3,
-        name: "Item 3 (e.g., Book)",
+        name: "Rose Candle",
         price: 200,
         image: "images/candle3.jpg" // Replace with your image URL or local path
     }
@@ -36,7 +36,7 @@ function renderProducts() {
         productDiv.innerHTML = `
             <img src="${item.image}" alt="${item.name}">
             <h3>${item.name}</h3>
-            <div class="price">$${item.price.toFixed(2)}</div>
+            <div class="price">${item.price.toFixed(2)} EGP</div>
             <div class="product-actions">
                 <button class="add-to-cart" onclick="addToCart(${item.id})">Add to Cart</button>
                 <i class="fas fa-heart fav-heart ${isFavorited ? '' : 'unfavorited'}" onclick="toggleFavorite(${item.id})" title="${isFavorited ? 'Remove from Favorites' : 'Add to Favorites'}"></i>
@@ -111,12 +111,12 @@ function renderCart() {
             <img src="${item.image}" alt="${item.name}">
             <div>
                 <strong>${item.name}</strong><br>
-                $${item.price.toFixed(2)} each
+                ${item.price.toFixed(2)} EGP each
             </div>
             <div class="quantity">
                 Qty: <input type="number" min="1" value="${item.quantity}" onchange="updateQuantity(${item.id}, this.value)">
             </div>
-            <div>$${ (item.price * item.quantity).toFixed(2) }</div>
+            <div>${ (item.price * item.quantity).toFixed(2) } EGP </div>
             <button class="remove-item" onclick="removeFromCart(${item.id})">Remove</button>
         </div>
     `).join('');
@@ -135,11 +135,12 @@ function renderFavorites() {
         <div class="product">
             <img src="${item.image}" alt="${item.name}">
             <h3>${item.name}</h3>
-            <div class="price">$${item.price.toFixed(2)}</div>
+            <div class="price">${item.price.toFixed(2)} EGP</div>
             <button class="add-to-cart" onclick="addToCart(${item.id})">Add to Cart</button>
             <i class="fas fa-heart fav-heart" onclick="toggleFavorite(${item.id})"></i>
         </div>
     `).join('');
+
 }
 
 // Update Cart/Favorites Counts
