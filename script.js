@@ -21,7 +21,7 @@ const items = [
     {
         id: 4,
         name: "White hoodie",
-        price: 350,
+        price: 450,
         image: "images/White hoodie.jpg" // Replace with your image URL or local path
     },
     {
