@@ -4,6 +4,9 @@
 
 A simple static site to display items, cart, and favorites. Cash payments only.
 
+## 🌐 Live Website
+[**candle-bloom.github.io**](https://whimsical-gingersnap-47e9c6.netlify.app/)
+
 ## Setup
 1. Fork/clone this repo.
 2. Edit `script.js`: Update the `items` array with your products (name, price, image).
