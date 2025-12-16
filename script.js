@@ -26,10 +26,11 @@ const items = [
     },
     {
         id: 5,
-        name: "Gray hoodie",
+        name: "Moon",
         price: 400,
-        image: "images/Gray hoodie.jpg" // Replace with your image URL or local path
-    }
+        image: "images/Moon.jpg" // Replace with your image URL or local path
+    },
+    
 
     // Add more: { id: 4, name: "Your Item", price: 15.99, image: "path/to/image.jpg" }
 ];
