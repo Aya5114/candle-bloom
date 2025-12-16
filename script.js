@@ -54,7 +54,7 @@ const items = [
         price: 1000,
         image: [
             "images/packge.jpeg" ,
-            "images/package2.jpeg"
+            // "images/package2.jpeg"
         ]
     },
     
