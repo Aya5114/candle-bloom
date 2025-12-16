@@ -3,13 +3,13 @@ const items = [
     {
         id: 1,
         name: "OUD CANDLE",
-        price: 100,
+        price: 130,
         image: "images/candle1.jpg" // Replace with your image URL or local path
     },
     {
         id: 2,
         name: "Vanilla Candle",
-        price: 100,
+        price: 110,
         image: "images/candle2.jpg" // Replace with your image URL or local path
     },
     {
@@ -52,7 +52,7 @@ const items = [
         id: 9,
         name: "Wedding Giveaway Packages (50 pcs)",
         price: 1000,
-        image: "images/package.jpeg" // Replace with your image URL or local path
+        image: "images/packge.jpeg" // Replace with your image URL or local path
     },
     
 
