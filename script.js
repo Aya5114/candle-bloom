@@ -15,20 +15,44 @@ const items = [
     {
         id: 3,
         name: "Rose Candle",
-        price: 200,
+        price: 100,
         image: "images/candle3.jpg" // Replace with your image URL or local path
     },
     {
         id: 4,
-        name: "White hoodie",
-        price: 450,
+        name: "Bubble Candle",
+        price: 130,
         image: "images/White hoodie.jpg" // Replace with your image URL or local path
     },
     {
         id: 5,
         name: "Moon",
-        price: 400,
+        price: 200,
         image: "images/Moon.jpg" // Replace with your image URL or local path
+    },
+    {
+        id: 6,
+        name: "Red Candle",
+        price: 60,
+        image: "images/red_candle.jpg" // Replace with your image URL or local path
+    },
+    {
+        id: 7,
+        name: "Flower Scented Candle",
+        price: 90,
+        image: "images/flower_candle.jpg" // Replace with your image URL or local path
+    },
+    {
+        id: 8,
+        name: "Zig Zag Candle",
+        price: 60,
+        image: "images/cute.jpg" // Replace with your image URL or local path
+    },
+    {
+        id: 9,
+        name: "Wedding Giveaway Packages (50 pcs)",
+        price: 1000,
+        image: "images/package.jpg" // Replace with your image URL or local path
     },
     
 
