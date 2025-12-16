@@ -22,7 +22,7 @@ const items = [
         id: 4,
         name: "Bubble Candle",
         price: 130,
-        image: "images/White hoodie.jpg" // Replace with your image URL or local path
+        image: "images/bubble2.jpeg" // Replace with your image URL or local path
     },
     {
         id: 5,
