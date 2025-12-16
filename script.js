@@ -34,7 +34,7 @@ const items = [
         id: 6,
         name: "Red Candle",
         price: 60,
-        image: "images/red_candle.jpg" // Replace with your image URL or local path
+        image: "images/red_candle.jpeg" // Replace with your image URL or local path
     },
     {
         id: 7,
@@ -46,13 +46,13 @@ const items = [
         id: 8,
         name: "Zig Zag Candle",
         price: 60,
-        image: "images/cute.jpg" // Replace with your image URL or local path
+        image: "images/cute.jpeg" // Replace with your image URL or local path
     },
     {
         id: 9,
         name: "Wedding Giveaway Packages (50 pcs)",
         price: 1000,
-        image: "images/package.jpg" // Replace with your image URL or local path
+        image: "images/package.jpeg" // Replace with your image URL or local path
     },
     
 
